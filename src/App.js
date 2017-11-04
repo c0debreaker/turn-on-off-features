@@ -20,7 +20,7 @@ class App extends Component {
           <h1 className="App-title">Feature Toggling during build thru Webpack</h1>
         </header>
         <h3>List of Features activated</h3>
-        <p className="App-intro">
+        <div className="App-intro">
            { Feature1 && <Feature1/> }
            { Feature2 && <Feature2/> }
            { Feature3 && <Feature3/> }
@@ -30,7 +30,7 @@ class App extends Component {
            { Feature7 && <Feature7/> }
            { Feature8 && <Feature8/> }
 
-        </p>
+        </div>
       </div>
     );
   }
